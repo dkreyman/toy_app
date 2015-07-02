@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   resources :microposts
   resources :users
-  resources :users
   root 'users#index'
 
   # You can have the root of your site routed with "root"
